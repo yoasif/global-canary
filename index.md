@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# use-application-dns.net
 
-You can use the [editor on GitHub](https://github.com/agrover/global-canary/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## What is this domain?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This domain is intended to be a content-free name that DNS filtering products add to their domain block lists.
 
-### Markdown
+This will allow users, as well as browers and other user agents that may implement DNS themselves, to know that the default DNS contains added value that the user may wish to maintain, and thus application DNS perhaps should not be used.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## How to use this
 
-```markdown
-Syntax highlighted code block
+Resolve use-application-dns.net using the platform's DNS. If the result is NXDOMAIN, then there is some sort of content filtering or other policy implemented by platform DNS. If the domain returns a result, then there is not (or the DNS policy has not added use-application-dns.net to its filtering lists.)
 
-# Header 1
-## Header 2
-### Header 3
+## Who runs this?
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/agrover/global-canary/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This domain is run by [Mozilla](https://mozilla.org), as an interim measure while an RFC is pursured through the IETF.
