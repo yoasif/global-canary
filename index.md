@@ -2,13 +2,13 @@
 
 ## What is this domain?
 
-This domain is intended to be a content-free name that DNS filtering products add to their domain block lists.
+This domain is intended to be a content-neutral name that DNS filtering products add to their domain block lists.
 
-This will allow users, as well as browers and other user agents that may implement DNS themselves, to know that the default DNS contains added value that the user may wish to maintain, and thus application DNS perhaps should not be used.
+This will allow users, as well as browsers and other user agents that may implement DNS themselves, to know that the default DNS has implemented some sort of content policy that the user may wish to maintain, and thus application DNS perhaps should not be used, since it would bypass that policy.
 
 ## How to use this
 
-Resolve use-application-dns.net using the platform's DNS. If the result is NXDOMAIN, then there is some sort of content filtering or other policy implemented by platform DNS. If the domain returns a result, then there is not (or the DNS policy has not added use-application-dns.net to its filtering lists.)
+Resolve use-application-dns.net using the platform's DNS. If the result is NXDOMAIN, then there is some sort of content filtering or other policy implemented by platform DNS. If the domain returns a result, then there is not (or the DNS server has not added use-application-dns.net to its filtering lists.)
 
 ## Who runs this?
 
