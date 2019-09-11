@@ -12,4 +12,4 @@ Resolve use-application-dns.net using the platform's DNS. If the result is NXDOM
 
 ## Who runs this?
 
-This domain is run by [Mozilla](https://mozilla.org), as an interim measure while an RFC is pursured through the IETF.
+This domain is run by [Mozilla](https://mozilla.org), as an interim measure while an RFC is pursued through the IETF.
